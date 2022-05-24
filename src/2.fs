@@ -1,9 +1,5 @@
 module euler2
 
-open System.Timers
-open System.Threading
-open System.Diagnostics
-
     let e02 =
         let stopWatch = System.Diagnostics.Stopwatch.StartNew()
 
