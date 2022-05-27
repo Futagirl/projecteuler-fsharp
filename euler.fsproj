@@ -1,15 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src/5.fs" />
+    <Compile Include="src/7.fs" />
+    <Compile Include="src/6.fs" />
+    <Compile Include="src\5.fs" />
     <Compile Include="src\2.fs" />
     <Compile Include="src\4.fs" />
     <Compile Include="src\4_.fs" />
     <Compile Include="src\2_.fs" />
     <Compile Include="src\1.fs" />
     <Compile Include="src\Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Collections.ParallelSeq" Version="1.2.0" />
   </ItemGroup>
 </Project>
