@@ -4,7 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="src/7.fs" />
+    <Compile Include="src\8.fs" />
+    <Compile Include="src\misc\factorial.fs" />
+    <Compile Include="src\7.fs" />
     <Compile Include="src/6.fs" />
     <Compile Include="src\5.fs" />
     <Compile Include="src\2.fs" />
