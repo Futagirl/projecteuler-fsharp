@@ -2,7 +2,7 @@ let rnd = new System.Random()
 
 let stopWatch = System.Diagnostics.Stopwatch.StartNew()
 // if rnd.Next() % 2 = 0 then
-printfn $"{euler7.result}"
+printfn $"{euler10.result}"
 // else
 //     printfn $"4_ {euler9.result}"
 
